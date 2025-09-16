@@ -4,7 +4,7 @@ This website is shows the games in which you can pet the dog and its target audi
 
 ## Installation
 
-Go 
+Go to website
 
 ### Usage 
 
