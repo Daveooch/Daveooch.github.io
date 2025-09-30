@@ -14,5 +14,5 @@ Examples of how to use the project
 
 Joshua D'Angelo (n01661738)
 Amarjot Parmar
-David 
+David Perruzza (n10001623)
 
