@@ -1,0 +1,17 @@
+header {
+  background: linear-gradient(#B4A7D6); 
+  color: white;
+  padding: 10px 20px;     
+  display: flex;            
+  align-items: center;      
+  justify-content: space-between; 
+  box-shadow: 0 4px 6px black;
+}
+
+header .logo img {
+  width: 60px;       
+  height: auto;
+  display: block;
+  margin: 0;        
+}
+

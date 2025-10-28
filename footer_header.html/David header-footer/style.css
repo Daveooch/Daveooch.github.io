@@ -1,0 +1,58 @@
+
+
+#div1 {
+    position: relative;
+    background-image:linear-gradient(#EEAFFF, #efb1d9, #EEAFFF);
+    padding: 30px;
+}
+
+.sbar {
+    text-align: left;
+    width: 700px;
+    margin-left: 300px;
+}
+
+#logohead {
+    height: 80px;
+    width: 80px;
+}
+#hyper {
+    background-color: #8E7CC3;
+
+}
+a:link{
+    color: black;
+}
+a:hover{
+    color: grey;
+}
+a:visited{
+    color:indigo
+}
+
+.midui {
+    background-color: white;
+    border: 0px solid black;
+    width: 1000px;
+    height: 700px;
+    right: 0;
+    margin:auto;
+}
+
+#div2 {
+    position: relative;
+    background-image:radial-gradient(#554a77, #685B8F);
+    padding: 30px;
+}
+
+#div2 a:link {
+    padding: 3px;
+    border: 2px solid #3e335f;
+    background-color: aliceblue;
+    color: black;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bolder;
+    font-family: Georgia;
+    text-decoration: none;
+}
