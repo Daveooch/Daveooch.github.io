@@ -1,0 +1,107 @@
+/* Fallout TV Show Page Styles */
+
+body.fallout-page {
+  background: #1c1c1c; /* dark Fallout theme */
+  color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  padding: 30px 20px;
+}
+
+/* HEADER */
+body.fallout-page header.fallout-header {
+  background: linear-gradient(90deg, #6b4f2e, #a78f5f);
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 2px solid #ffd700;
+}
+
+body.fallout-page .fallout-logo img {
+  width: 60px;
+  height: 60px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+body.fallout-page .fallout-logo h1 {
+  display: inline-block;
+  color: #ffd700;
+  font-size: 28px;
+  margin: 0;
+  vertical-align: middle;
+}
+
+/* MAIN CONTENT */
+body.fallout-page .content {
+  max-width: 850px;
+  margin: 20px auto;
+  padding: 25px;
+  line-height: 1.7;
+  
+  background: linear-gradient(145deg, #2a2a2a, #3b3b2f); 
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+  
+  color: #f0f0f0;
+}
+
+/* HEADINGS */
+body.fallout-page h2 {
+  color: #ffd700;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+/* PARAGRAPHS */
+body.fallout-page p {
+  font-size: 17px;
+  margin-bottom: 18px;
+}
+
+/* IMAGES */
+body.fallout-page img {
+  display: block;
+  margin: 25px auto;
+  max-width: 100%;
+  border-radius: 10px;
+  border: 3px solid #ffd700;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+/* LINKS */
+body.fallout-page a {
+  color: #ffd700;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+body.fallout-page a:hover {
+  color: #ffec8b;
+  text-decoration: underline;
+}
+
+/* BACK BUTTON */
+body.fallout-page .back-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 14px;
+  background: #ffd700;
+  color: #1a1a1a;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+body.fallout-page .back-btn:hover {
+  background: #ffec8b;
+}
+
+/* FOOTER */
+body.fallout-page footer {
+  background: linear-gradient(90deg, #6b4f2e, #a78f5f);
+  color: #ffd700;
+  text-align: center;
+  padding: 15px 0;
+  border-top: 2px solid #ffd700;
+}

@@ -1,0 +1,125 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Can You Pet The Dog?</title>
+  <link rel="stylesheet" href="header and footer style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <img src="Webpage logo.png" alt="Site Logo">
+    <h1>Can You Pet The Dog?</h1>
+  </div>
+
+  <nav>
+    <a href="#">Home</a> &nbsp;|&nbsp;
+    <div class="dropdown">
+  <a href="#">Genres</a> &nbsp;|&nbsp;
+  <div class="dropdown-content">
+    <a href="#">Action</a>
+    <a href="#">Survival</a>
+    <a href="#">Horror</a>
+    <a href="#">RPG</a>
+  </div>
+</div>
+
+    <a href="#">About</a> &nbsp;|&nbsp;
+    <a href="#">References</a>
+    <input type="text" placeholder="Search..">
+  </nav>
+</header>
+
+<section class="games">
+  <!-- FIRST ROW -->
+  <div class="row">
+    <div class="game action">
+      <img src="Images/Fallout_4_cover_art.jpg" alt="Fallout 4"
+           onclick="document.getElementById('woof-sound').play()">
+      <p>Fallout 4</p>
+    </div>
+
+    <div class="game action">
+      <img src="Images/Red Dead Redemption 2 cover.jpeg" alt="Red Dead Redemption 2"
+           onclick="document.getElementById('woof-sound').play()">
+      <p>Red Dead Redemption 2</p>
+    </div>
+
+    <div class="game rpg">
+      <img src="Images/Final_Fantasy_XVI_cover_art.png" alt="Final Fantasy XVI"
+           onclick="document.getElementById('woof-sound').play()">
+      <p>Final Fantasy XVI</p>
+    </div>
+
+    <div class="game survival">
+      <img src="Images/Minecraft cover.jpg" alt="Minecraft"
+           onclick="document.getElementById('woof-sound').play()">
+      <p>Minecraft</p>
+    </div>
+  </div>
+
+  <!-- SECOND ROW (NEW 3 GAMES) -->
+  <div class="row" style="margin-top: 40px;">
+    <div class="game horror">
+      <img src="Images/blair_witch.jpg" alt="Blair Witch"
+           onclick="document.getElementById('woof-sound').play()">
+      <p>Blair Witch</p>
+    </div>
+
+    <div class="game survival">
+      <img src="Images/ArkSurvivalEvolved.png" alt="Ark Survival Evolved"
+           onclick="document.getElementById('woof-sound').play()">
+      <p>Ark Survival Evolved</p>
+    </div>
+
+    <div class="game action">
+      <img src="Images/Watch_dogs_2_Box_Art.jpg" alt="Watch Dogs 2"
+           onclick="document.getElementById('woof-sound').play()">
+      <p>Watch Dogs 2</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- Audio tag -->
+<audio id="woof-sound" src="audio/dog-bark-382732.mp3"></audio>
+ 
+<!-- TRENDING SIDEBAR -->
+<div class="trending-box">
+  <h3>Trending News</h3>
+
+  <div class="trend-news">
+    <ul class="trend-list">
+      <li>🔥 <a href="../header & footer/trending/gta6.html" title="Expected release: November 2025">GTA 6 release date leak</a></li>
+      <li>🔥 <a href="../header & footer/trending/fortnite.html" title="Fortnite Chapter 6 Leak">Fortnite Chapter 6 map leaked</a></li>
+      <li>🔥 <a href="../header & footer/trending/fallout.html" title="Fallout TV Show Season 2">Fallout TV Show Season 2 rumor</a></li>
+      <li>🔥 <a href="../header & footer/trending/codz.html" title="Call of Duty Zombies Update">Call Of Duty Zombies new update</a></li>
+      <li>🔥 <a href="../header & footer/trending/spiderman.html" title="Spider-Man 2 DLC Teased">Spider-Man 2 DLC teased</a></li>
+
+
+      <!-- DUPLICATE FOR LOOP -->
+      <li>🔥 <a href="../header & footer/trending/gta6.html" title="Expected release: November 2025">GTA 6 release date leak</a></li>
+      <li>🔥 <a href="../header & footer/trending/fortnite.html" title="Fortnite Chapter 6 Leak">Fortnite Chapter 6 map leaked</a></li>
+      <li>🔥 <a href="../header & footer/trending/fallout.html" title="Fallout TV Show Season 2">Fallout TV Show Season 2 rumor</a></li>
+      <li>🔥 <a href="../header & footer/trending/codz.html" title="Call of Duty Zombies Update">Call Of Duty Zombies new update</a></li>
+     <li>🔥 <a href="../header & footer/trending/spiderman.html" title="Spider-Man 2 DLC Teased">Spider-Man 2 DLC teased</a></li>
+
+    </ul>
+  </div>
+</div>
+
+
+
+
+
+
+<footer>
+  <p>© 2025 Can You Pet The Dog?</p>
+</footer>
+
+</body>
+</html>
+
+

@@ -1,0 +1,107 @@
+/* Call of Duty Zombies Page Styles */
+
+body.codz-page {
+  background: #1a1a1a; /* dark zombie theme */
+  color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  padding: 30px 20px;
+}
+
+/* HEADER */
+body.codz-page header.codz-header {
+  background: linear-gradient(90deg, #2c2c2c, #444444);
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 2px solid #ff0000;
+}
+
+body.codz-page .codz-logo img {
+  width: 60px;
+  height: 60px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+body.codz-page .codz-logo h1 {
+  display: inline-block;
+  color: #ff0000;
+  font-size: 28px;
+  margin: 0;
+  vertical-align: middle;
+}
+
+/* MAIN CONTENT */
+body.codz-page .content {
+  max-width: 850px;
+  margin: 20px auto;
+  padding: 25px;
+  line-height: 1.7;
+  
+  background: linear-gradient(145deg, #2a2a2a, #1e1e1e); 
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+  
+  color: #f0f0f0;
+}
+
+/* HEADINGS */
+body.codz-page h2 {
+  color: #ff0000;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+/* PARAGRAPHS */
+body.codz-page p {
+  font-size: 17px;
+  margin-bottom: 18px;
+}
+
+/* IMAGES */
+body.codz-page img {
+  display: block;
+  margin: 25px auto;
+  max-width: 100%;
+  border-radius: 10px;
+  border: 3px solid #ff0000;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+/* LINKS */
+body.codz-page a {
+  color: #ff0000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+body.codz-page a:hover {
+  color: #ff5555;
+  text-decoration: underline;
+}
+
+/* BACK BUTTON */
+body.codz-page .back-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 14px;
+  background: #ff0000;
+  color: #1a1a1a;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+body.codz-page .back-btn:hover {
+  background: #ff5555;
+}
+
+/* FOOTER */
+body.codz-page footer {
+  background: linear-gradient(90deg, #2c2c2c, #444444);
+  color: #ff0000;
+  text-align: center;
+  padding: 15px 0;
+  border-top: 2px solid #ff0000;
+}
