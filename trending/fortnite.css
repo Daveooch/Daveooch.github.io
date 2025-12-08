@@ -1,0 +1,107 @@
+/* Fortnite Chapter 6 Page Styles */
+
+body.fortnite-page {
+  background: #f0f8ff; /* light blue for Fortnite theme */
+  color: #1a1a1a;
+  font-family: Arial, sans-serif;
+  padding: 30px 20px;
+}
+
+/* HEADER */
+body.fortnite-page header.fortnite-header {
+  background: linear-gradient(90deg, #0055ff, #00aaff);
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 2px solid #ffd700;
+}
+
+body.fortnite-page .fortnite-logo img {
+  width: 60px;
+  height: 60px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+body.fortnite-page .fortnite-logo h1 {
+  display: inline-block;
+  color: #ffd700;
+  font-size: 28px;
+  margin: 0;
+  vertical-align: middle;
+}
+
+/* MAIN CONTENT */
+body.fortnite-page .content {
+  max-width: 850px;
+  margin: 20px auto;
+  padding: 25px;
+  line-height: 1.7;
+  
+  background: linear-gradient(145deg, #d0e8ff, #a0d4ff); 
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+  
+  color: #1a1a1a;
+}
+
+/* HEADINGS */
+body.fortnite-page h2 {
+  color: #0055ff;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+/* PARAGRAPHS */
+body.fortnite-page p {
+  font-size: 17px;
+  margin-bottom: 18px;
+}
+
+/* IMAGES */
+body.fortnite-page img {
+  display: block;
+  margin: 25px auto;
+  max-width: 100%;
+  border-radius: 10px;
+  border: 3px solid #0055ff;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+/* LINKS */
+body.fortnite-page a {
+  color: #0055ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+body.fortnite-page a:hover {
+  color: #00aaff;
+  text-decoration: underline;
+}
+
+/* BACK BUTTON */
+body.fortnite-page .back-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 14px;
+  background: #0055ff;
+  color: #ffffff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+body.fortnite-page .back-btn:hover {
+  background: #00aaff;
+}
+
+/* FOOTER */
+body.fortnite-page footer {
+  background: linear-gradient(90deg, #0055ff, #00aaff);
+  color: #ffffff;
+  text-align: center;
+  padding: 15px 0;
+  border-top: 2px solid #0055ff;
+}
