@@ -1,0 +1,394 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0e0e0e;
+  color: white;
+  cursor: url("./pawcursor32.png") 16 16, auto;
+  background: rgb(135, 237, 243);
+}
+
+
+/* HEADER + FOOTER COLORS */
+header, footer {
+    background: linear-gradient(30deg, #00ddff 10%, #2a5298 60%, rgb(10, 38, 77) 80%); /* nice blue gradient *//* nice blue gradient */
+  color: black;
+  font-weight:800;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+h1{
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* HEADER */
+header {
+  padding: 10px 20px;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    right: 25px;
+    color:black;
+    text-decoration: underline;
+}
+
+
+
+/*  search bar */
+header input[type="text"] {
+  flex: 1;              
+  padding: 8px 12px;     
+  font-size: 16px;       
+  border-radius: 8px;    
+  border: 2px solid white;       
+  outline: none;         
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 55px; 
+  height: 55px;
+  border-radius: 5px;
+}
+
+nav {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 15px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+nav input {
+  margin-left: auto;
+  padding: 5px 8px;
+  font-size: 14px;
+}
+
+/* Dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown menu hidden by default */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: linear-gradient(90deg, #1e3c72, #2a5298);
+  min-width: 120px;
+  top: 20px; 
+  border-radius: 5px;
+  flex-direction: column;
+  z-index: 10;
+}
+
+/* Dropdown links */
+.dropdown-content a {
+  display: block;
+  padding: 6px 10px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Hover effect */
+.dropdown-content a:hover {
+  background: #324f9e;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* GAMES SECTION */
+.games {
+  padding: 20px;
+  position: relative;
+
+}
+
+.row {
+  margin-top: 20px;
+  position: relative;
+  right: 30px;
+  bottom: 30px;
+  display: flex;
+  gap: 60px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.game img {
+  width: 180px;        
+  height: 240px;       
+  object-fit: cover;   
+  border-radius: 8px;  
+  border: 2px solid #a08aff; 
+  display: block;
+  transition: transform 0.3s; 
+  margin-top: 0px;
+}
+
+.game img:hover {
+  transform: scale(1.05);   
+}
+
+
+.game p {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 5px;
+  color: black;
+  font-weight:800;
+  font-size: 20px;
+}
+
+.trending-box {
+  position: fixed;
+  top: 275px;          
+  right: 20px;
+  width: 240px;
+  background: #2a5298;
+  padding: 30px;
+  border-radius: 12px;
+  color: #ffd700;
+  font-size: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+.trending-box h3 {
+  margin-bottom: 12px;
+  font-size: 20px;
+  text-align: center;
+  color: #ffec8b;
+  text-shadow: 1px 1px 2px black;
+}
+
+.trend-news {
+  height: 150px;
+  overflow: hidden;
+  position: relative;
+}
+
+.trend-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  animation: scrollUp 15s linear infinite;
+}
+
+.trend-list li {
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+@keyframes scrollUp {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-50%); }
+}
+
+
+.video-hover-container{
+    position: relative;
+    display: block;
+    width: 180px;
+    height: 240px;
+    overflow: hidden;
+    border-radius: 8px;
+    border: 2px solid #a08aff;
+    margin-top: 60px;
+}
+
+.thumbnail-image, .hover-video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.hover-video{
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+.video-hover-container:hover .thumbnail-image{
+    opacity: 0;
+}
+
+.video-hover-container:hover .hover-video{
+    opacity: 1;
+}
+
+
+
+
+/* GTA 6 Page Styles */
+
+body.gta6-page {
+  background: #ffffff;           /* page background white */
+  color: #1a1a1a;               /* dark text */
+  font-family: Arial, sans-serif;
+  padding: 30px 20px;
+}
+
+/* HEADER - GTA page */
+body.gta6-page header.gta6-header {
+  background: linear-gradient(90deg, #1e3c72, #2a5298);
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 2px solid #ffd700;
+}
+
+body.gta6-page .gta6-logo img {
+  width: 60px;
+  height: 60px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+body.gta6-page .gta6-logo h1 {
+  display: inline-block;
+  color: #ffd700;
+  font-size: 28px;
+  margin: 0;
+  vertical-align: middle;
+}
+
+/* MAIN CONTENT - GTA page */
+body.gta6-page .content {
+  max-width: 850px;
+  margin: 20px auto;
+  padding: 25px;
+  line-height: 1.7;
+  
+  background: linear-gradient(145deg, #2a2a2a, #1e1e2b); 
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+  
+  color: #f0f0f0;  
+}
+
+/* HEADINGS */
+body.gta6-page h2 {
+  color: #ffd700;              
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+/* PARAGRAPHS */
+body.gta6-page p {
+  font-size: 17px;
+  margin-bottom: 18px;
+}
+
+/* IMAGES */
+body.gta6-page img {
+  display: block;
+  margin: 25px auto;
+  max-width: 100%;
+  border-radius: 10px;
+  border: 3px solid #ffd700;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+/* LINKS */
+body.gta6-page a {
+  color: #ffd700;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+body.gta6-page a:hover {
+  color: #ffec8b;
+  text-decoration: underline;
+}
+
+/* BACK BUTTON */
+body.gta6-page .back-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 14px;
+  background: #ffd700;
+  color: #1a1a1a;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+body.gta6-page .back-btn:hover {
+  background: #ffec8b;
+}
+
+/* FOOTER - GTA themed gradient */
+body.gta6-page footer {
+  background: linear-gradient(90deg, #1e3c72, #2a5298);
+  color: #ffd700;
+  text-align: center;
+  padding: 15px 0;
+  border-top: 2px solid #ffd700;
+}
+
+
+/* FOOTER */
+footer {
+  text-align: center;
+    padding: 30px;
+  margin-top: 300px;  
+  font-size: 14px;
+  background: linear-gradient(30deg, rgb(10, 38, 77) 10%, #2a5298 40%, #00ddff 80%);
+  color: black;
+}
+
+
+
+/* Dropdown button */
+
+.dropbtn{
+    background: none;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    font-weight: 800;
+}
+
+
+nav.dropdown{
+    position: relative;
+    display:inline-block;
+}
+
+nav .dropdown-content{
+    display: none;
+    position: absolute;
+    background: linear-gradient(90deg, #1e3c72, #2a5298);
+    border-radius: 5px;
+}
+

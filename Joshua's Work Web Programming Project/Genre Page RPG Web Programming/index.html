@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roleplay Game Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Webpage logo.png" alt="Site Logo">
+            <h1>Can you Pet The Dog?</h1>
+        </div>
+
+        <nav>
+            <a href="#">Home</a> &nbsp; | &nbsp;
+            <div class="dropdown">
+                <button class="dropbtn">Genres</button> &nbsp; | &nbsp;
+                <div class="dropdown-content">
+                    <a href="#">Action</a>
+                    <a href="#">Survival</a>
+                    <a href="#">Horror</a>
+                    <a href="#">RPG</a>
+                </div>
+            </div>
+    
+            <a href="#">About</a>  &nbsp; | &nbsp;
+            <a href="#">References</a>  &nbsp; | &nbsp;
+            <input type="text" placeholder="Search...">
+        </nav>
+    </header>
+    
+        <h2>Roleplay Game Play (RPG)</h2>
+    <section class="games">
+        <div class="row">
+            <div class="game roleplay game">
+                <img src="Images/Final_Fantasy_XVI_cover_art.png" alt="Final Fantasy XVI"
+                    onclick="document.getElementById('woof-sound').play()">
+                    <p>Final Fantasy XVI</p>
+            </div>
+
+            <div class="game roleplay game">
+                <img src="Images/Fallout_4_cover_art.jpg" alt="Fallout 4"
+                onclick="document.getElementById('dogwhining').play()">
+                <p>Fallout 4</p>
+            </div>
+        </div>
+    </section>
+    <!-- Audio tag --> 
+ <!--Joshua D'Angelo (n01661738) Work Section Audio-->
+<audio id="woof-sound" src="Audio/dog-bark-382732.mp3"></audio>
+<audio id="evildogbark" src="Audio/evildogbark.mp3"></audio>
+<audio id="dogwhining" src="Audio/dogwhining.mp3"></audio>
+
+
+<div class="trending-box">
+    <h3>Trending</h3>
+
+    <div class="trend-news">
+        <ul class="trend-list">
+            <li><a href="gta6.html" title="Expected release: November 2025">GTA 6 release date leak</a></li>
+            <li>Fortnite Chapter 6 map leaked</li>
+            <li>Fallout TV Show Season 2 rumor</li>
+            <li>Call Of Duty Zombies new update</li>
+            <li>Spider-Man 2 DLC teased</li>
+
+            <!-- DUPLICATE LOOP -->
+            <li>GTA 6 release date leak</li>
+            <li>Fortnite Chapter 6 map leaked</li>
+            <li>Fallout TV Show Season 2 rumor</li>
+            <li>Call Of Duty Zombies new update</li>
+            <li>Spider-Man 2 DLC teased</li>
+        </ul>
+    </div>
+</div>
+        
+    
+<footer>
+  <p>© 2025 Can You Pet The Dog?</p>
+</footer>
+</body>
+</html>
